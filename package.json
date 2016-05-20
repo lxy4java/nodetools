@@ -1,0 +1,9 @@
+{
+  "name": "nw-workspace",
+  "main": "index.html",
+  "nodejs": true,
+  "window":{
+      "toolbar":false,
+      "frame":true
+  }
+}
