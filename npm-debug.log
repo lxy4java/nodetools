@@ -1,0 +1,636 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'X:\\nodejs\\nodejs\\node.exe',
+1 verbose cli   'X:\\nodejs\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-oracle' ]
+2 info using npm@3.9.5
+3 info using node@v6.2.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node-oracle
+8 silly fetchNamedPackageData node-oracle
+9 silly mapToRegistry name node-oracle
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'node-oracle',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'node-oracle',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/node-oracle
+14 verbose request uri https://registry.npmjs.org/node-oracle
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:02:30
+17 verbose request id fb1c15f345276f07
+18 verbose etag "196IXMN1LLIZF0BMWBWXVJRWA"
+19 http request GET https://registry.npmjs.org/node-oracle
+20 http 304 https://registry.npmjs.org/node-oracle
+21 verbose headers { date: 'Fri, 24 Jun 2016 02:02:28 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"196IXMN1LLIZF0BMWBWXVJRWA"',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-fra1229-FRA',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1466733748.932085,VS0,VE187',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Fri, 24 Jun 2016 02:02:28 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"196IXMN1LLIZF0BMWBWXVJRWA"',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-fra1229-FRA',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1466733748.932085,VS0,VE187',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/node-oracle from cache
+24 verbose get saving node-oracle to C:\Users\lixy\AppData\Roaming\npm-cache\registry.npmjs.org\node-oracle\.cache.json
+25 verbose correctMkdir C:\Users\lixy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule node-oracle@0.0.5 checking installable status
+39 silly cache add args [ 'node-oracle', null ]
+40 verbose cache add spec node-oracle
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'node-oracle',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'node-oracle',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed node-oracle@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for node-oracle
+44 info addNameTag [ 'node-oracle', 'latest' ]
+45 silly mapToRegistry name node-oracle
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'node-oracle',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'node-oracle',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/node-oracle
+50 verbose addNameTag registry:https://registry.npmjs.org/node-oracle not in flight; fetching
+51 verbose get https://registry.npmjs.org/node-oracle not expired, no request
+52 silly addNameTag next cb for node-oracle with tag latest
+53 silly addNamed node-oracle@0.0.5
+54 verbose addNamed "0.0.5" is a plain semver version for node-oracle
+55 silly cache afterAdd node-oracle@0.0.5
+56 verbose afterAdd C:\Users\lixy\AppData\Roaming\npm-cache\node-oracle\0.0.5\package\package.json not in flight; writing
+57 verbose correctMkdir C:\Users\lixy\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+58 verbose afterAdd C:\Users\lixy\AppData\Roaming\npm-cache\node-oracle\0.0.5\package\package.json written
+59 silly loadAllDepsIntoIdealTree Finishing
+60 silly idealTree:prePrune nw-workspace@
+60 silly idealTree:prePrune +-- async@2.0.0-rc.3
+60 silly idealTree:prePrune +-- bignumber.js@2.1.2
+60 silly idealTree:prePrune +-- core-util-is@1.0.2
+60 silly idealTree:prePrune +-- inherits@2.0.1
+60 silly idealTree:prePrune +-- isarray@0.0.1
+60 silly idealTree:prePrune +-- lodash@4.12.0
+60 silly idealTree:prePrune +-- mysql@2.10.0
+60 silly idealTree:prePrune +-- node-oracle@0.0.5
+60 silly idealTree:prePrune +-- readable-stream@1.1.13
+60 silly idealTree:prePrune `-- string_decoder@0.10.31
+61 silly loadIdealTree Finishing
+62 silly currentTree nw-workspace@
+62 silly currentTree +-- async@2.0.0-rc.3
+62 silly currentTree +-- bignumber.js@2.1.2
+62 silly currentTree +-- core-util-is@1.0.2
+62 silly currentTree +-- inherits@2.0.1
+62 silly currentTree +-- isarray@0.0.1
+62 silly currentTree +-- lodash@4.12.0
+62 silly currentTree +-- mysql@2.10.0
+62 silly currentTree +-- readable-stream@1.1.13
+62 silly currentTree `-- string_decoder@0.10.31
+63 silly idealTree nw-workspace@
+63 silly idealTree +-- async@2.0.0-rc.3
+63 silly idealTree +-- bignumber.js@2.1.2
+63 silly idealTree +-- core-util-is@1.0.2
+63 silly idealTree +-- inherits@2.0.1
+63 silly idealTree +-- isarray@0.0.1
+63 silly idealTree +-- lodash@4.12.0
+63 silly idealTree +-- mysql@2.10.0
+63 silly idealTree +-- node-oracle@0.0.5
+63 silly idealTree +-- readable-stream@1.1.13
+63 silly idealTree `-- string_decoder@0.10.31
+64 silly generateActionsToTake Starting
+65 silly install generateActionsToTake
+66 silly generateActionsToTake Finishing
+67 silly diffTrees action count 3
+68 silly diffTrees update async@2.0.0-rc.3
+69 silly diffTrees update mysql@2.10.0
+70 silly diffTrees add node-oracle@0.0.5
+71 silly decomposeActions action count 24
+72 silly decomposeActions fetch async@2.0.0-rc.3
+73 silly decomposeActions extract async@2.0.0-rc.3
+74 silly decomposeActions test async@2.0.0-rc.3
+75 silly decomposeActions preinstall async@2.0.0-rc.3
+76 silly decomposeActions build async@2.0.0-rc.3
+77 silly decomposeActions install async@2.0.0-rc.3
+78 silly decomposeActions postinstall async@2.0.0-rc.3
+79 silly decomposeActions finalize async@2.0.0-rc.3
+80 silly decomposeActions fetch mysql@2.10.0
+81 silly decomposeActions extract mysql@2.10.0
+82 silly decomposeActions test mysql@2.10.0
+83 silly decomposeActions preinstall mysql@2.10.0
+84 silly decomposeActions build mysql@2.10.0
+85 silly decomposeActions install mysql@2.10.0
+86 silly decomposeActions postinstall mysql@2.10.0
+87 silly decomposeActions finalize mysql@2.10.0
+88 silly decomposeActions fetch node-oracle@0.0.5
+89 silly decomposeActions extract node-oracle@0.0.5
+90 silly decomposeActions test node-oracle@0.0.5
+91 silly decomposeActions preinstall node-oracle@0.0.5
+92 silly decomposeActions build node-oracle@0.0.5
+93 silly decomposeActions install node-oracle@0.0.5
+94 silly decomposeActions postinstall node-oracle@0.0.5
+95 silly decomposeActions finalize node-oracle@0.0.5
+96 silly executeActions Starting
+97 silly install executeActions
+98 silly doSerial global-install 0
+99 silly doParallel fetch 3
+100 verbose correctMkdir C:\Users\lixy\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+101 verbose lock using C:\Users\lixy\AppData\Roaming\npm-cache\_locks\staging-aed14f38c32f24f1.lock for L:\node-webkit\nodetools\node_modules\.staging
+102 silly doParallel extract 3
+103 silly extract async@2.0.0-rc.3
+104 silly extract mysql@2.10.0
+105 silly extract node-oracle@0.0.5
+106 verbose unbuild node_modules\.staging\mysql-3c1b51c9
+107 verbose unbuild node_modules\.staging\async-3b35bfd8
+108 verbose unbuild node_modules\.staging\node-oracle-5322f339
+109 silly gentlyRm L:\node-webkit\nodetools\node_modules\.staging\mysql-3c1b51c9 is being purged from base L:\node-webkit\nodetools
+110 verbose gentlyRm don't care about contents; nuking L:\node-webkit\nodetools\node_modules\.staging\mysql-3c1b51c9
+111 silly gentlyRm L:\node-webkit\nodetools\node_modules\.staging\async-3b35bfd8 is being purged from base L:\node-webkit\nodetools
+112 verbose gentlyRm don't care about contents; nuking L:\node-webkit\nodetools\node_modules\.staging\async-3b35bfd8
+113 silly gentlyRm L:\node-webkit\nodetools\node_modules\.staging\node-oracle-5322f339 is being purged from base L:\node-webkit\nodetools
+114 verbose gentlyRm don't care about contents; nuking L:\node-webkit\nodetools\node_modules\.staging\node-oracle-5322f339
+115 verbose tar unpack C:\Users\lixy\AppData\Roaming\npm-cache\mysql\2.10.0\package.tgz
+116 verbose tar unpacking to L:\node-webkit\nodetools\node_modules\.staging\mysql-3c1b51c9
+117 silly gentlyRm L:\node-webkit\nodetools\node_modules\.staging\mysql-3c1b51c9 is being purged
+118 verbose gentlyRm don't care about contents; nuking L:\node-webkit\nodetools\node_modules\.staging\mysql-3c1b51c9
+119 verbose tar unpack C:\Users\lixy\AppData\Roaming\npm-cache\async\2.0.0-rc.3\package.tgz
+120 verbose tar unpacking to L:\node-webkit\nodetools\node_modules\.staging\async-3b35bfd8
+121 silly gentlyRm L:\node-webkit\nodetools\node_modules\.staging\async-3b35bfd8 is being purged
+122 verbose gentlyRm don't care about contents; nuking L:\node-webkit\nodetools\node_modules\.staging\async-3b35bfd8
+123 verbose tar unpack C:\Users\lixy\AppData\Roaming\npm-cache\node-oracle\0.0.5\package.tgz
+124 verbose tar unpacking to L:\node-webkit\nodetools\node_modules\.staging\node-oracle-5322f339
+125 silly gentlyRm L:\node-webkit\nodetools\node_modules\.staging\node-oracle-5322f339 is being purged
+126 verbose gentlyRm don't care about contents; nuking L:\node-webkit\nodetools\node_modules\.staging\node-oracle-5322f339
+127 silly gunzTarPerm modes [ '777', '666' ]
+128 silly gunzTarPerm modes [ '777', '666' ]
+129 silly gunzTarPerm modes [ '777', '666' ]
+130 silly gunzTarPerm extractEntry package.json
+131 silly gunzTarPerm extractEntry package.json
+132 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+133 silly gunzTarPerm extractEntry package.json
+134 silly gunzTarPerm extractEntry index.js
+135 silly gunzTarPerm extractEntry Changes.md
+136 silly gunzTarPerm extractEntry README.md
+137 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+138 silly gunzTarPerm extractEntry LICENSE
+139 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+140 silly gunzTarPerm extractEntry README.md
+141 silly gunzTarPerm extractEntry index.js
+142 silly gunzTarPerm extractEntry License
+143 silly gunzTarPerm extractEntry binding.gyp
+144 silly gunzTarPerm extractEntry lib/connection.js
+145 silly gunzTarPerm extractEntry lib/oracle.js
+146 silly gunzTarPerm extractEntry src/core/otlPool.cpp
+147 silly gunzTarPerm extractEntry src/core/otlPool.h
+148 silly gunzTarPerm extractEntry eachOfLimit.js
+149 silly gunzTarPerm modified mode [ 'eachOfLimit.js', 436, 438 ]
+150 silly gunzTarPerm extractEntry filter.js
+151 silly gunzTarPerm modified mode [ 'filter.js', 436, 438 ]
+152 silly gunzTarPerm extractEntry filterLimit.js
+153 silly gunzTarPerm modified mode [ 'filterLimit.js', 436, 438 ]
+154 silly gunzTarPerm extractEntry eachOf.js
+155 silly gunzTarPerm modified mode [ 'eachOf.js', 436, 438 ]
+156 silly gunzTarPerm extractEntry everySeries.js
+157 silly gunzTarPerm modified mode [ 'everySeries.js', 436, 438 ]
+158 silly gunzTarPerm extractEntry src/core/otlv4.h
+159 silly gunzTarPerm extractEntry transform.js
+160 silly gunzTarPerm modified mode [ 'transform.js', 436, 438 ]
+161 silly gunzTarPerm extractEntry src/core/plateform_public.cpp
+162 silly gunzTarPerm extractEntry Readme.md
+163 silly gunzTarPerm extractEntry lib/Connection.js
+164 silly gunzTarPerm extractEntry iterator.js
+165 silly gunzTarPerm modified mode [ 'iterator.js', 436, 438 ]
+166 silly gunzTarPerm extractEntry lib/ConnectionConfig.js
+167 silly gunzTarPerm extractEntry lib/Pool.js
+168 silly gunzTarPerm extractEntry lib/PoolCluster.js
+169 silly gunzTarPerm extractEntry lib/PoolConfig.js
+170 silly gunzTarPerm extractEntry lib/PoolConnection.js
+171 silly gunzTarPerm extractEntry src/core/platform_config.h
+172 silly gunzTarPerm extractEntry src/lib/oci.lib
+173 silly gunzTarPerm extractEntry lib/PoolNamespace.js
+174 silly gunzTarPerm extractEntry lib/PoolSelector.js
+175 silly gunzTarPerm extractEntry log.js
+176 silly gunzTarPerm modified mode [ 'log.js', 436, 438 ]
+177 silly gunzTarPerm extractEntry map.js
+178 silly gunzTarPerm modified mode [ 'map.js', 436, 438 ]
+179 silly gunzTarPerm extractEntry everyLimit.js
+180 silly gunzTarPerm modified mode [ 'everyLimit.js', 436, 438 ]
+181 silly gunzTarPerm extractEntry mapLimit.js
+182 silly gunzTarPerm modified mode [ 'mapLimit.js', 436, 438 ]
+183 silly gunzTarPerm extractEntry lib/protocol/Auth.js
+184 silly gunzTarPerm extractEntry lib/protocol/PacketHeader.js
+185 silly gunzTarPerm extractEntry src/nodejs/nodefunction.cc
+186 silly gunzTarPerm extractEntry every.js
+187 silly gunzTarPerm modified mode [ 'every.js', 436, 438 ]
+188 silly gunzTarPerm extractEntry mapSeries.js
+189 silly gunzTarPerm modified mode [ 'mapSeries.js', 436, 438 ]
+190 silly gunzTarPerm extractEntry src/nodejs/ConnJob.h
+191 silly gunzTarPerm extractEntry src/nodejs/ConnctionPool.h
+192 silly gunzTarPerm extractEntry src/nodejs/Connection.cc
+193 silly gunzTarPerm extractEntry src/nodejs/Connection.h
+194 silly gunzTarPerm extractEntry ensureAsync.js
+195 silly gunzTarPerm modified mode [ 'ensureAsync.js', 436, 438 ]
+196 silly gunzTarPerm extractEntry memoize.js
+197 silly gunzTarPerm modified mode [ 'memoize.js', 436, 438 ]
+198 silly gunzTarPerm extractEntry src/nodejs/QueryJob.cc
+199 silly gunzTarPerm extractEntry src/nodejs/QueryJob.h
+200 silly gunzTarPerm extractEntry src/nodejs/ConnctionPool.cc
+201 silly gunzTarPerm extractEntry src/nodejs/nodefunction.h
+202 silly gunzTarPerm extractEntry src/nodejs/oracle_client.cc
+203 silly gunzTarPerm extractEntry src/nodejs/oracle_client.h
+204 silly gunzTarPerm extractEntry src/nodejs/outParam.cc
+205 silly gunzTarPerm extractEntry eachSeries.js
+206 silly gunzTarPerm modified mode [ 'eachSeries.js', 436, 438 ]
+207 silly gunzTarPerm extractEntry nextTick.js
+208 silly gunzTarPerm modified mode [ 'nextTick.js', 436, 438 ]
+209 silly gunzTarPerm extractEntry src/nodejs/outParam.h
+210 silly gunzTarPerm extractEntry src/nodejs/tuple.h
+211 silly gunzTarPerm extractEntry src/oci/ocidef.h
+212 silly gunzTarPerm extractEntry src/oci/nzerror.h
+213 silly gunzTarPerm extractEntry src/oci/occi.h
+214 silly gunzTarPerm extractEntry src/oci/occiAQ.h
+215 silly gunzTarPerm extractEntry src/oci/occiCommon.h
+216 silly gunzTarPerm extractEntry eachOfSeries.js
+217 silly gunzTarPerm modified mode [ 'eachOfSeries.js', 436, 438 ]
+218 silly gunzTarPerm extractEntry eachLimit.js
+219 silly gunzTarPerm modified mode [ 'eachLimit.js', 436, 438 ]
+220 silly gunzTarPerm extractEntry src/oci/occiControl.h
+221 silly gunzTarPerm extractEntry lib/protocol/PacketWriter.js
+222 silly gunzTarPerm extractEntry lib/protocol/Parser.js
+223 silly gunzTarPerm extractEntry src/oci/occiData.h
+224 silly gunzTarPerm extractEntry src/oci/occiObjects.h
+225 silly gunzTarPerm extractEntry src/oci/oci.h
+226 silly gunzTarPerm extractEntry forever.js
+227 silly gunzTarPerm modified mode [ 'forever.js', 436, 438 ]
+228 silly gunzTarPerm extractEntry parallel.js
+229 silly gunzTarPerm modified mode [ 'parallel.js', 436, 438 ]
+230 silly gunzTarPerm extractEntry src/oci/oci1.h
+231 silly gunzTarPerm extractEntry src/oci/oci8dp.h
+232 silly gunzTarPerm extractEntry src/oci/ociap.h
+233 silly gunzTarPerm extractEntry src/oci/ociapr.h
+234 silly gunzTarPerm extractEntry src/oci/nzt.h
+235 silly gunzTarPerm extractEntry src/oci/ocidem.h
+236 silly gunzTarPerm extractEntry each.js
+237 silly gunzTarPerm modified mode [ 'each.js', 436, 438 ]
+238 silly gunzTarPerm extractEntry parallelLimit.js
+239 silly gunzTarPerm modified mode [ 'parallelLimit.js', 436, 438 ]
+240 silly gunzTarPerm extractEntry src/oci/ocidfn.h
+241 silly gunzTarPerm extractEntry src/oci/ociextp.h
+242 silly gunzTarPerm extractEntry src/oci/ocikpr.h
+243 silly gunzTarPerm extractEntry src/oci/ocixmldb.h
+244 silly gunzTarPerm extractEntry src/oci/odci.h
+245 silly gunzTarPerm extractEntry src/oci/oratypes.h
+246 silly gunzTarPerm extractEntry src/oci/ori.h
+247 silly gunzTarPerm extractEntry lib/protocol/Protocol.js
+248 silly gunzTarPerm extractEntry lib/protocol/ResultSet.js
+249 silly gunzTarPerm extractEntry src/oci/orid.h
+250 silly gunzTarPerm extractEntry src/oci/orl.h
+251 silly gunzTarPerm extractEntry during.js
+252 silly gunzTarPerm modified mode [ 'during.js', 436, 438 ]
+253 silly gunzTarPerm extractEntry priorityQueue.js
+254 silly gunzTarPerm modified mode [ 'priorityQueue.js', 436, 438 ]
+255 silly gunzTarPerm extractEntry src/oci/oro.h
+256 silly gunzTarPerm extractEntry src/oci/ort.h
+257 silly gunzTarPerm extractEntry doWhilst.js
+258 silly gunzTarPerm modified mode [ 'doWhilst.js', 436, 438 ]
+259 silly gunzTarPerm extractEntry queue.js
+260 silly gunzTarPerm modified mode [ 'queue.js', 436, 438 ]
+261 silly gunzTarPerm extractEntry doUntil.js
+262 silly gunzTarPerm modified mode [ 'doUntil.js', 436, 438 ]
+263 silly gunzTarPerm extractEntry race.js
+264 silly gunzTarPerm modified mode [ 'race.js', 436, 438 ]
+265 silly gunzTarPerm extractEntry src/oci/xa.h
+266 silly gunzTarPerm extractEntry doDuring.js
+267 silly gunzTarPerm modified mode [ 'doDuring.js', 436, 438 ]
+268 silly gunzTarPerm extractEntry reduce.js
+269 silly gunzTarPerm modified mode [ 'reduce.js', 436, 438 ]
+270 silly gunzTarPerm extractEntry src/third_party/CodingConv/encodeutil.cpp
+271 silly gunzTarPerm extractEntry src/third_party/CodingConv/encodeutil.h
+272 silly gunzTarPerm extractEntry lib/protocol/SqlString.js
+273 silly gunzTarPerm extractEntry lib/protocol/constants/charsets.js
+274 silly gunzTarPerm extractEntry unmemoize.js
+275 silly gunzTarPerm modified mode [ 'unmemoize.js', 436, 438 ]
+276 silly gunzTarPerm extractEntry reduceRight.js
+277 silly gunzTarPerm modified mode [ 'reduceRight.js', 436, 438 ]
+278 silly gunzTarPerm extractEntry src/un/include/un.h~
+279 silly gunzTarPerm extractEntry src/un/include/error.h
+280 silly gunzTarPerm extractEntry src/un/include/un-linux.h~
+281 silly gunzTarPerm extractEntry src/un/include/un-win.h
+282 silly gunzTarPerm extractEntry src/un/include/un.h
+283 silly gunzTarPerm extractEntry src/un/include/un-linux.h
+284 silly gunzTarPerm extractEntry dir.js
+285 silly gunzTarPerm modified mode [ 'dir.js', 436, 438 ]
+286 silly gunzTarPerm extractEntry reflect.js
+287 silly gunzTarPerm modified mode [ 'reflect.js', 436, 438 ]
+288 silly gunzTarPerm extractEntry src/un/include/un_common.c
+289 silly gunzTarPerm extractEntry src/un/include/un_common.h
+290 silly gunzTarPerm extractEntry src/un/include/un_error.h
+291 silly gunzTarPerm extractEntry src/un/include/un_error.h~
+292 silly gunzTarPerm extractEntry src/un/include/un_stdint-2008.h
+293 silly gunzTarPerm extractEntry src/un/src/linux/thread.c
+294 silly gunzTarPerm extractEntry src/un/src/linux/thread.c~
+295 silly gunzTarPerm extractEntry src/un/src/un_common.c
+296 silly gunzTarPerm extractEntry src/un/src/un_common.h
+297 silly gunzTarPerm extractEntry src/un/src/win32/error.c
+298 silly gunzTarPerm extractEntry src/un/src/win32/internal.h
+299 silly gunzTarPerm extractEntry detectSeries.js
+300 silly gunzTarPerm modified mode [ 'detectSeries.js', 436, 438 ]
+301 silly gunzTarPerm extractEntry reflectAll.js
+302 silly gunzTarPerm modified mode [ 'reflectAll.js', 436, 438 ]
+303 silly gunzTarPerm extractEntry src/un/src/win32/thread.c
+304 silly gunzTarPerm extractEntry src/un/src/win32/winapi.c
+305 silly gunzTarPerm extractEntry src/un/src/win32/winapi.h
+306 silly gunzTarPerm extractEntry test/conn_test.js
+307 silly gunzTarPerm extractEntry test/insert_test.js
+308 silly gunzTarPerm extractEntry test/query_test.js
+309 silly gunzTarPerm extractEntry test/server.js
+310 silly gunzTarPerm extractEntry test/tran_test.js
+311 silly gunzTarPerm extractEntry lib/protocol/constants/client.js
+312 silly gunzTarPerm extractEntry lib/protocol/constants/errors.js
+313 silly gunzTarPerm extractEntry detectLimit.js
+314 silly gunzTarPerm modified mode [ 'detectLimit.js', 436, 438 ]
+315 silly gunzTarPerm extractEntry reject.js
+316 silly gunzTarPerm modified mode [ 'reject.js', 436, 438 ]
+317 silly gunzTarPerm extractEntry lib/protocol/constants/field_flags.js
+318 silly gunzTarPerm extractEntry lib/protocol/constants/server_status.js
+319 silly gunzTarPerm extractEntry lib/protocol/constants/ssl_profiles.js
+320 silly gunzTarPerm extractEntry detect.js
+321 silly gunzTarPerm modified mode [ 'detect.js', 436, 438 ]
+322 silly gunzTarPerm extractEntry rejectLimit.js
+323 silly gunzTarPerm modified mode [ 'rejectLimit.js', 436, 438 ]
+324 silly gunzTarPerm extractEntry constant.js
+325 silly gunzTarPerm modified mode [ 'constant.js', 436, 438 ]
+326 silly gunzTarPerm extractEntry rejectSeries.js
+327 silly gunzTarPerm modified mode [ 'rejectSeries.js', 436, 438 ]
+328 silly gunzTarPerm extractEntry lib/protocol/constants/types.js
+329 silly gunzTarPerm extractEntry lib/protocol/packets/ClientAuthenticationPacket.js
+330 silly gunzTarPerm extractEntry concatSeries.js
+331 silly gunzTarPerm modified mode [ 'concatSeries.js', 436, 438 ]
+332 silly gunzTarPerm extractEntry retry.js
+333 silly gunzTarPerm modified mode [ 'retry.js', 436, 438 ]
+334 silly gunzTarPerm extractEntry lib/protocol/packets/EofPacket.js
+335 silly gunzTarPerm extractEntry lib/protocol/packets/ErrorPacket.js
+336 silly gunzTarPerm extractEntry concat.js
+337 silly gunzTarPerm modified mode [ 'concat.js', 436, 438 ]
+338 silly gunzTarPerm extractEntry retryable.js
+339 silly gunzTarPerm modified mode [ 'retryable.js', 436, 438 ]
+340 silly gunzTarPerm extractEntry compose.js
+341 silly gunzTarPerm modified mode [ 'compose.js', 436, 438 ]
+342 silly gunzTarPerm extractEntry seq.js
+343 silly gunzTarPerm modified mode [ 'seq.js', 436, 438 ]
+344 silly gunzTarPerm extractEntry until.js
+345 silly gunzTarPerm modified mode [ 'until.js', 436, 438 ]
+346 silly gunzTarPerm extractEntry series.js
+347 silly gunzTarPerm modified mode [ 'series.js', 436, 438 ]
+348 silly gunzTarPerm extractEntry lib/protocol/packets/Field.js
+349 silly gunzTarPerm extractEntry lib/protocol/packets/EmptyPacket.js
+350 silly gunzTarPerm extractEntry cargo.js
+351 silly gunzTarPerm modified mode [ 'cargo.js', 436, 438 ]
+352 silly gunzTarPerm extractEntry setImmediate.js
+353 silly gunzTarPerm modified mode [ 'setImmediate.js', 436, 438 ]
+354 silly gunzTarPerm extractEntry lib/protocol/packets/HandshakeInitializationPacket.js
+355 silly gunzTarPerm extractEntry lib/protocol/packets/LocalDataFilePacket.js
+356 silly gunzTarPerm extractEntry waterfall.js
+357 silly gunzTarPerm modified mode [ 'waterfall.js', 436, 438 ]
+358 silly gunzTarPerm extractEntry some.js
+359 silly gunzTarPerm modified mode [ 'some.js', 436, 438 ]
+360 silly gunzTarPerm extractEntry autoInject.js
+361 silly gunzTarPerm modified mode [ 'autoInject.js', 436, 438 ]
+362 silly gunzTarPerm extractEntry someLimit.js
+363 silly gunzTarPerm modified mode [ 'someLimit.js', 436, 438 ]
+364 silly gunzTarPerm extractEntry auto.js
+365 silly gunzTarPerm modified mode [ 'auto.js', 436, 438 ]
+366 silly gunzTarPerm extractEntry someSeries.js
+367 silly gunzTarPerm modified mode [ 'someSeries.js', 436, 438 ]
+368 silly gunzTarPerm extractEntry asyncify.js
+369 silly gunzTarPerm modified mode [ 'asyncify.js', 436, 438 ]
+370 silly gunzTarPerm extractEntry sortBy.js
+371 silly gunzTarPerm modified mode [ 'sortBy.js', 436, 438 ]
+372 silly gunzTarPerm extractEntry lib/protocol/packets/OkPacket.js
+373 silly gunzTarPerm extractEntry lib/protocol/packets/OldPasswordPacket.js
+374 silly gunzTarPerm extractEntry applyEachSeries.js
+375 silly gunzTarPerm modified mode [ 'applyEachSeries.js', 436, 438 ]
+376 silly gunzTarPerm extractEntry timeout.js
+377 silly gunzTarPerm modified mode [ 'timeout.js', 436, 438 ]
+378 silly gunzTarPerm extractEntry applyEach.js
+379 silly gunzTarPerm modified mode [ 'applyEach.js', 436, 438 ]
+380 silly gunzTarPerm extractEntry times.js
+381 silly gunzTarPerm modified mode [ 'times.js', 436, 438 ]
+382 silly gunzTarPerm extractEntry apply.js
+383 silly gunzTarPerm modified mode [ 'apply.js', 436, 438 ]
+384 silly gunzTarPerm extractEntry whilst.js
+385 silly gunzTarPerm modified mode [ 'whilst.js', 436, 438 ]
+386 silly gunzTarPerm extractEntry timesLimit.js
+387 silly gunzTarPerm modified mode [ 'timesLimit.js', 436, 438 ]
+388 silly gunzTarPerm extractEntry timesSeries.js
+389 silly gunzTarPerm modified mode [ 'timesSeries.js', 436, 438 ]
+390 silly gunzTarPerm extractEntry filterSeries.js
+391 silly gunzTarPerm modified mode [ 'filterSeries.js', 436, 438 ]
+392 silly gunzTarPerm extractEntry index.js
+393 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+394 silly gunzTarPerm extractEntry lib/protocol/packets/ResultSetHeaderPacket.js
+395 silly gunzTarPerm extractEntry lib/protocol/packets/ComStatisticsPacket.js
+396 silly gunzTarPerm extractEntry internal/applyEach.js
+397 silly gunzTarPerm modified mode [ 'internal/applyEach.js', 436, 438 ]
+398 silly gunzTarPerm extractEntry internal/eachOfLimit.js
+399 silly gunzTarPerm modified mode [ 'internal/eachOfLimit.js', 436, 438 ]
+400 silly gunzTarPerm extractEntry internal/filter.js
+401 silly gunzTarPerm modified mode [ 'internal/filter.js', 436, 438 ]
+402 silly gunzTarPerm extractEntry internal/findGetResult.js
+403 silly gunzTarPerm modified mode [ 'internal/findGetResult.js', 436, 438 ]
+404 silly gunzTarPerm extractEntry internal/doSeries.js
+405 silly gunzTarPerm modified mode [ 'internal/doSeries.js', 436, 438 ]
+406 silly gunzTarPerm extractEntry internal/initialParams.js
+407 silly gunzTarPerm modified mode [ 'internal/initialParams.js', 436, 438 ]
+408 silly gunzTarPerm extractEntry internal/iterator.js
+409 silly gunzTarPerm modified mode [ 'internal/iterator.js', 436, 438 ]
+410 silly gunzTarPerm extractEntry internal/map.js
+411 silly gunzTarPerm modified mode [ 'internal/map.js', 436, 438 ]
+412 silly gunzTarPerm extractEntry lib/protocol/packets/RowDataPacket.js
+413 silly gunzTarPerm extractEntry lib/protocol/packets/ComQuitPacket.js
+414 silly gunzTarPerm extractEntry internal/notId.js
+415 silly gunzTarPerm modified mode [ 'internal/notId.js', 436, 438 ]
+416 silly gunzTarPerm extractEntry internal/once.js
+417 silly gunzTarPerm modified mode [ 'internal/once.js', 436, 438 ]
+418 silly gunzTarPerm extractEntry lib/protocol/packets/SSLRequestPacket.js
+419 silly gunzTarPerm extractEntry lib/protocol/packets/ComQueryPacket.js
+420 silly gunzTarPerm extractEntry internal/doParallelLimit.js
+421 silly gunzTarPerm modified mode [ 'internal/doParallelLimit.js', 436, 438 ]
+422 silly gunzTarPerm extractEntry internal/onlyOnce.js
+423 silly gunzTarPerm modified mode [ 'internal/onlyOnce.js', 436, 438 ]
+424 silly gunzTarPerm extractEntry internal/doParallel.js
+425 silly gunzTarPerm modified mode [ 'internal/doParallel.js', 436, 438 ]
+426 silly gunzTarPerm extractEntry internal/parallel.js
+427 silly gunzTarPerm modified mode [ 'internal/parallel.js', 436, 438 ]
+428 silly gunzTarPerm extractEntry lib/protocol/packets/StatisticsPacket.js
+429 silly gunzTarPerm extractEntry lib/protocol/packets/ComPingPacket.js
+430 silly gunzTarPerm extractEntry internal/doLimit.js
+431 silly gunzTarPerm modified mode [ 'internal/doLimit.js', 436, 438 ]
+432 silly gunzTarPerm extractEntry internal/queue.js
+433 silly gunzTarPerm modified mode [ 'internal/queue.js', 436, 438 ]
+434 silly gunzTarPerm extractEntry lib/protocol/packets/UseOldPasswordPacket.js
+435 silly gunzTarPerm extractEntry lib/protocol/packets/ComChangeUserPacket.js
+436 silly gunzTarPerm extractEntry internal/createTester.js
+437 silly gunzTarPerm modified mode [ 'internal/createTester.js', 436, 438 ]
+438 silly gunzTarPerm extractEntry internal/reject.js
+439 silly gunzTarPerm modified mode [ 'internal/reject.js', 436, 438 ]
+440 silly gunzTarPerm extractEntry lib/protocol/packets/index.js
+441 silly gunzTarPerm extractEntry lib/protocol/packets/FieldPacket.js
+442 silly gunzTarPerm extractEntry lib/protocol/sequences/ChangeUser.js
+443 silly gunzTarPerm extractEntry lib/protocol/sequences/Handshake.js
+444 silly gunzTarPerm extractEntry internal/consoleFunc.js
+445 silly gunzTarPerm modified mode [ 'internal/consoleFunc.js', 436, 438 ]
+446 silly gunzTarPerm extractEntry internal/setImmediate.js
+447 silly gunzTarPerm modified mode [ 'internal/setImmediate.js', 436, 438 ]
+448 silly gunzTarPerm extractEntry lib/protocol/sequences/Ping.js
+449 silly gunzTarPerm extractEntry lib/protocol/sequences/Query.js
+450 silly gunzTarPerm extractEntry lib/protocol/sequences/Quit.js
+451 silly gunzTarPerm extractEntry lib/protocol/sequences/Sequence.js
+452 silly gunzTarPerm extractEntry lib/protocol/sequences/Statistics.js
+453 silly gunzTarPerm extractEntry internal/concat.js
+454 silly gunzTarPerm modified mode [ 'internal/concat.js', 436, 438 ]
+455 silly gunzTarPerm extractEntry internal/withoutIndex.js
+456 silly gunzTarPerm modified mode [ 'internal/withoutIndex.js', 436, 438 ]
+457 silly gunzTarPerm extractEntry lib/protocol/sequences/index.js
+458 silly gunzTarPerm extractEntry internal/getIterator.js
+459 silly gunzTarPerm modified mode [ 'internal/getIterator.js', 436, 438 ]
+460 silly gunzTarPerm extractEntry dist/async.js
+461 silly gunzTarPerm modified mode [ 'dist/async.js', 436, 438 ]
+462 silly gunzTarPerm extractEntry dist/async.min.js
+463 silly gunzTarPerm modified mode [ 'dist/async.min.js', 436, 438 ]
+464 silly gunzTarPerm extractEntry component.json
+465 silly gunzTarPerm modified mode [ 'component.json', 436, 438 ]
+466 silly gunzTarPerm extractEntry bower.json
+467 silly gunzTarPerm modified mode [ 'bower.json', 436, 438 ]
+468 silly gunzTarPerm extractEntry CHANGELOG.md
+469 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+470 silly gentlyRm L:\node-webkit\nodetools\node_modules\.staging\node-oracle-5322f339\node_modules is being purged
+471 verbose gentlyRm don't care about contents; nuking L:\node-webkit\nodetools\node_modules\.staging\node-oracle-5322f339\node_modules
+472 silly gentlyRm L:\node-webkit\nodetools\node_modules\.staging\mysql-3c1b51c9\node_modules is being purged
+473 verbose gentlyRm don't care about contents; nuking L:\node-webkit\nodetools\node_modules\.staging\mysql-3c1b51c9\node_modules
+474 silly gentlyRm L:\node-webkit\nodetools\node_modules\.staging\async-3b35bfd8\node_modules is being purged
+475 verbose gentlyRm don't care about contents; nuking L:\node-webkit\nodetools\node_modules\.staging\async-3b35bfd8\node_modules
+476 silly doParallel preinstall 3
+477 silly preinstall async@2.0.0-rc.3 L:\node-webkit\nodetools\node_modules\.staging\async-3b35bfd8
+478 info lifecycle async@2.0.0-rc.3~preinstall: async@2.0.0-rc.3
+479 silly preinstall mysql@2.10.0 L:\node-webkit\nodetools\node_modules\.staging\mysql-3c1b51c9
+480 info lifecycle mysql@2.10.0~preinstall: mysql@2.10.0
+481 silly preinstall node-oracle@0.0.5 L:\node-webkit\nodetools\node_modules\.staging\node-oracle-5322f339
+482 info lifecycle node-oracle@0.0.5~preinstall: node-oracle@0.0.5
+483 silly lifecycle async@2.0.0-rc.3~preinstall: no script for preinstall, continuing
+484 silly lifecycle mysql@2.10.0~preinstall: no script for preinstall, continuing
+485 silly lifecycle node-oracle@0.0.5~preinstall: no script for preinstall, continuing
+486 silly doReverseSerial remove 0
+487 silly doSerial move 0
+488 silly doSerial finalize 3
+489 silly finalize L:\node-webkit\nodetools\node_modules\async
+490 silly finalize L:\node-webkit\nodetools\node_modules\mysql
+491 silly finalize L:\node-webkit\nodetools\node_modules\node-oracle
+492 silly doSerial build 3
+493 silly build async@2.0.0-rc.3
+494 info linkStuff async@2.0.0-rc.3
+495 silly linkStuff async@2.0.0-rc.3 has L:\node-webkit\nodetools\node_modules as its parent node_modules
+496 verbose linkBins async@2.0.0-rc.3
+497 verbose linkMans async@2.0.0-rc.3
+498 silly build mysql@2.10.0
+499 info linkStuff mysql@2.10.0
+500 silly linkStuff mysql@2.10.0 has L:\node-webkit\nodetools\node_modules as its parent node_modules
+501 verbose linkBins mysql@2.10.0
+502 verbose linkMans mysql@2.10.0
+503 silly build node-oracle@0.0.5
+504 info linkStuff node-oracle@0.0.5
+505 silly linkStuff node-oracle@0.0.5 has L:\node-webkit\nodetools\node_modules as its parent node_modules
+506 verbose linkBins node-oracle@0.0.5
+507 verbose linkMans node-oracle@0.0.5
+508 silly doSerial global-link 0
+509 silly doParallel update-linked 0
+510 silly doSerial install 3
+511 silly install async@2.0.0-rc.3 L:\node-webkit\nodetools\node_modules\.staging\async-3b35bfd8
+512 info lifecycle async@2.0.0-rc.3~install: async@2.0.0-rc.3
+513 silly lifecycle async@2.0.0-rc.3~install: no script for install, continuing
+514 silly install mysql@2.10.0 L:\node-webkit\nodetools\node_modules\.staging\mysql-3c1b51c9
+515 info lifecycle mysql@2.10.0~install: mysql@2.10.0
+516 silly lifecycle mysql@2.10.0~install: no script for install, continuing
+517 silly install node-oracle@0.0.5 L:\node-webkit\nodetools\node_modules\.staging\node-oracle-5322f339
+518 info lifecycle node-oracle@0.0.5~install: node-oracle@0.0.5
+519 verbose lifecycle node-oracle@0.0.5~install: unsafe-perm in lifecycle true
+520 verbose lifecycle node-oracle@0.0.5~install: PATH: X:\nodejs\nodejs\node_modules\npm\bin\node-gyp-bin;L:\node-webkit\nodetools\node_modules\node-oracle\node_modules\.bin;L:\node-webkit\nodetools\node_modules\.bin;X:\nodejs\nodejs;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\Lenovo\ReadyApps;X:\git\Git\cmd;X:\scala\bin;X:\scala\scala\bin;X:\git\bin;X:\nodejs\nodejs\;X:\java\maven\apache-maven-3.3.3\bin;X:\java\java\jre\bin;X:\java\java\jre\jre\bin;X:\nodejs\nodejs;X:\scala\scala\bin;X:\scala\sbt\bin;X:\groovy\groovy-2.4.3\bin;X:\java\ant\apache-ant-1.9.6\bin;C:\ProgramData\lixy\atom\bin;X:\java\gradle-2.11\bin;C:\Users\lixy\AppData\Local\atom\bin;C:\Users\lixy\AppData\Roaming\npm
+521 verbose lifecycle node-oracle@0.0.5~install: CWD: L:\node-webkit\nodetools\node_modules\node-oracle
+522 silly lifecycle node-oracle@0.0.5~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+523 silly lifecycle node-oracle@0.0.5~install: Returned: code: 1  signal: null
+524 info lifecycle node-oracle@0.0.5~install: Failed to exec install script
+525 verbose unlock done using C:\Users\lixy\AppData\Roaming\npm-cache\_locks\staging-aed14f38c32f24f1.lock for L:\node-webkit\nodetools\node_modules\.staging
+526 silly rollbackFailedOptional Starting
+527 silly rollbackFailedOptional Finishing
+528 silly runTopLevelLifecycles Starting
+529 silly runTopLevelLifecycles Finishing
+530 silly install printInstalled
+531 warn nw-workspace@ No description
+532 warn nw-workspace@ No repository field.
+533 warn nw-workspace@ No license field.
+534 verbose stack Error: node-oracle@0.0.5 install: `node-gyp rebuild`
+534 verbose stack Exit status 1
+534 verbose stack     at EventEmitter.<anonymous> (X:\nodejs\nodejs\node_modules\npm\lib\utils\lifecycle.js:245:16)
+534 verbose stack     at emitTwo (events.js:106:13)
+534 verbose stack     at EventEmitter.emit (events.js:191:7)
+534 verbose stack     at ChildProcess.<anonymous> (X:\nodejs\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+534 verbose stack     at emitTwo (events.js:106:13)
+534 verbose stack     at ChildProcess.emit (events.js:191:7)
+534 verbose stack     at maybeClose (internal/child_process.js:852:16)
+534 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+535 verbose pkgid node-oracle@0.0.5
+536 verbose cwd L:\node-webkit\nodetools
+537 error Windows_NT 10.0.10586
+538 error argv "X:\\nodejs\\nodejs\\node.exe" "X:\\nodejs\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-oracle"
+539 error node v6.2.2
+540 error npm  v3.9.5
+541 error code ELIFECYCLE
+542 error node-oracle@0.0.5 install: `node-gyp rebuild`
+542 error Exit status 1
+543 error Failed at the node-oracle@0.0.5 install script 'node-gyp rebuild'.
+543 error Make sure you have the latest version of node.js and npm installed.
+543 error If you do, this is most likely a problem with the node-oracle package,
+543 error not with npm itself.
+543 error Tell the author that this fails on your system:
+543 error     node-gyp rebuild
+543 error You can get information on how to open an issue for this project with:
+543 error     npm bugs node-oracle
+543 error Or if that isn't available, you can get their info via:
+543 error     npm owner ls node-oracle
+543 error There is likely additional logging output above.
+544 verbose exit [ 1, true ]
